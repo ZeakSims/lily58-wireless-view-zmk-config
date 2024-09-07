@@ -41,11 +41,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC    &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(N5)                                &kp RC(NUMBER_6)   &kp RC(N7)    &kp RC(N8)    &kp RC(N9)    &kp RC(N0)  &kp MINUS
-&kp F1     &kp F2            &kp UP_ARROW      &kp F4            &kp F5            &kp F6                                    &kp F7             &kp N7        &kp N8        &kp N9        &kp F11     &kp F12
-&kp GRAVE  &kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &kp DOLLAR        &kp PRCNT                                 &kp CARET          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RPAR    &kp TILDE
-&trans     &trans            &trans            &trans            &trans            &trans            &trans       &trans     &kp N0             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RBRC    &kp PIPE
-                                               &kp GLOBE         &trans            &kp LEFT_COMMAND  &kp SPACE    &kp ENTER  &kp RIGHT_COMMAND  &trans        &trans
+&kp ESC         &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)   &kp RC(N5)                                 &kp RC(NUMBER_6)   &kp RC(N7)     &kp RC(N8)    &kp RC(N9)    &kp RC(N0)  &kp MINUS
+&kp F1          &kp F2            &kp UP_ARROW      &kp F4            &kp F5             &kp F6                                     &kp F7             &kp N7         &kp N8        &kp N9        &kp F11     &kp EQUAL
+&kp GRAVE       &kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &kp C_BRI_DEC      &kp C_BRI_UP                               &kp CARET          &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp RPAR    &kp EQUAL
+&kp LEFT_SHIFT  &kp K_PREV        &kp K_PLAY_PAUSE  &kp K_NEXT        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE    &trans     &kp N0             &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp RBRC    &kp PIPE
+                                                    &kp GLOBE         &trans             &kp LEFT_COMMAND  &kp SPACE     &kp ENTER  &kp RIGHT_COMMAND  &kp BACKSPACE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
