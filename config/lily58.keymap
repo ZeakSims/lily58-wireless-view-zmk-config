@@ -42,7 +42,7 @@
             display-name = "Lower";
             bindings = <
 &kp ESC         &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)   &kp RC(N5)                                        &kp RC(NUMBER_6)   &kp RC(N7)     &kp RC(N8)    &kp RC(N9)    &kp RC(N0)            &kp MINUS
-&kp LA(TAB)     &kp LG(SPACE)     &kp UP_ARROW      &kp F4            &kp F5             &kp F6                                            &kp CARET          &kp N7         &kp N8        &kp N9        &kp ASTERISK          &kp EQUAL
+&kp LA(TAB)     &kp LG(SPACE)     &kp UP_ARROW      &kp LG(C)         &kp LG(X)          &kp LG(V)                                         &kp CARET          &kp N7         &kp N8        &kp N9        &kp ASTERISK          &kp EQUAL
 &kp TAB         &kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &kp C_BRI_DEC      &kp C_BRI_UP                                      &kp RIGHT_BRACKET  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LEFT_SHIFT  &kp K_PREV        &kp K_PLAY_PAUSE  &kp K_NEXT        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE    &kp LEFT_BRACKET  &kp N0             &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp SLASH             &kp PIPE
                                                     &kp GLOBE         &kp LEFT_ALT       &kp LEFT_COMMAND  &kp SPACE     &kp ENTER         &kp RIGHT_COMMAND  &kp BACKSPACE  &tog 0
