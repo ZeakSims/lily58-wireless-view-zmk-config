@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -42,11 +41,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &trans     &trans        &trans        &trans        &trans    &trans
-&kp F1      &kp F2          &kp UP_ARROW  &kp F4        &kp F5        &kp F6                                &kp F7     &kp N7        &kp N8        &kp N9        &kp F11   &kp F12
-&kp GRAVE   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT     &kp DOLLAR    &kp PRCNT                             &kp CARET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RPAR  &kp TILDE
-&trans      &trans          &trans        &trans        &trans        &trans        &trans       &trans     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RBRC  &kp PIPE
-                                          &trans        &trans        &trans        &kp SPACE    &kp ENTER  &trans     &trans        &trans
+&kp ESC    &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(N5)                                &kp RC(NUMBER_6)   &kp RC(N7)    &kp RC(N8)    &kp RC(N9)    &kp RC(N0)  &kp MINUS
+&kp F1     &kp F2            &kp UP_ARROW      &kp F4            &kp F5            &kp F6                                    &kp F7             &kp N7        &kp N8        &kp N9        &kp F11     &kp F12
+&kp GRAVE  &kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &kp DOLLAR        &kp PRCNT                                 &kp CARET          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RPAR    &kp TILDE
+&trans     &trans            &trans            &trans            &trans            &trans            &trans       &trans     &kp N0             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RBRC    &kp PIPE
+                                               &kp GLOBE         &trans            &kp LEFT_COMMAND  &kp SPACE    &kp ENTER  &kp RIGHT_COMMAND  &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
